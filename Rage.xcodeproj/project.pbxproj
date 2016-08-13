@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A72B6F1C503F36007E18ED /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A72B6E1C503F36007E18ED /* ProductCell.swift */; };
+		64180AAD1C18883300626C11 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64180AA91C18883300626C11 /* LaunchScreen.xib */; };
+		64180AAE1C18883300626C11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64180AAB1C18883300626C11 /* Main.storyboard */; };
+		64D62BE21C121CFD0059469C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D62BD61C121CFD0059469C /* AppDelegate.swift */; };
+		64D62BE41C121CFD0059469C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D62BD81C121CFD0059469C /* DetailViewController.swift */; };
+		64D62BE61C121CFD0059469C /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D62BDA1C121CFD0059469C /* IAPHelper.swift */; };
+		64D62BE71C121CFD0059469C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D62BDB1C121CFD0059469C /* Images.xcassets */; };
+		64D62BEA1C121CFD0059469C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D62BDE1C121CFD0059469C /* MasterViewController.swift */; };
+		64D62BEC1C121CFD0059469C /* RageProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D62BE01C121CFD0059469C /* RageProducts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DAF90131AF403640068C264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAF8FF31AF403640068C264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAF8FFA1AF403640068C264;
+			remoteInfo = inappragedemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17A72B6E1C503F36007E18ED /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProductCell.swift; path = Rage/ProductCell.swift; sourceTree = SOURCE_ROOT; };
+		5DAF8FFB1AF403640068C264 /* Rage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAF90121AF403640068C264 /* Rage.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rage.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		64180AAA1C18883300626C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Rage/Base.lproj/LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		64180AAC1C18883300626C11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Rage/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		64D62BD61C121CFD0059469C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Rage/AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		64D62BD81C121CFD0059469C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = Rage/DetailViewController.swift; sourceTree = SOURCE_ROOT; };
+		64D62BDA1C121CFD0059469C /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IAPHelper.swift; path = Rage/IAPHelper.swift; sourceTree = SOURCE_ROOT; };
+		64D62BDB1C121CFD0059469C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Rage/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		64D62BDC1C121CFD0059469C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Rage/Info.plist; sourceTree = SOURCE_ROOT; };
+		64D62BDE1C121CFD0059469C /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MasterViewController.swift; path = Rage/MasterViewController.swift; sourceTree = SOURCE_ROOT; };
+		64D62BE01C121CFD0059469C /* RageProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RageProducts.swift; path = Rage/RageProducts.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAF8FF81AF403640068C264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF900F1AF403640068C264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DAF8FF21AF403640068C264 = {
+			isa = PBXGroup;
+			children = (
+				5DAF8FFD1AF403640068C264 /* Rage */,
+				5DAF8FFC1AF403640068C264 /* Products */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		5DAF8FFC1AF403640068C264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAF8FFB1AF403640068C264 /* Rage.app */,
+				5DAF90121AF403640068C264 /* Rage.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DAF8FFD1AF403640068C264 /* Rage */ = {
+			isa = PBXGroup;
+			children = (
+				64D62BD61C121CFD0059469C /* AppDelegate.swift */,
+				64D62BDA1C121CFD0059469C /* IAPHelper.swift */,
+				64D62BE01C121CFD0059469C /* RageProducts.swift */,
+				64D62BDE1C121CFD0059469C /* MasterViewController.swift */,
+				64D62BD81C121CFD0059469C /* DetailViewController.swift */,
+				17A72B6E1C503F36007E18ED /* ProductCell.swift */,
+				64180AAB1C18883300626C11 /* Main.storyboard */,
+				64180AA91C18883300626C11 /* LaunchScreen.xib */,
+				64D62BDB1C121CFD0059469C /* Images.xcassets */,
+				5DAF8FFE1AF403640068C264 /* Supporting Files */,
+			);
+			name = Rage;
+			path = inappragedemo;
+			sourceTree = "<group>";
+		};
+		5DAF8FFE1AF403640068C264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64D62BDC1C121CFD0059469C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5DAF8FFA1AF403640068C264 /* Rage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF901C1AF403640068C264 /* Build configuration list for PBXNativeTarget "Rage" */;
+			buildPhases = (
+				5DAF8FF71AF403640068C264 /* Sources */,
+				5DAF8FF81AF403640068C264 /* Frameworks */,
+				5DAF8FF91AF403640068C264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rage;
+			productName = inappragedemo;
+			productReference = 5DAF8FFB1AF403640068C264 /* Rage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5DAF90111AF403640068C264 /* RageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAF901F1AF403640068C264 /* Build configuration list for PBXNativeTarget "RageTests" */;
+			buildPhases = (
+				5DAF900E1AF403640068C264 /* Sources */,
+				5DAF900F1AF403640068C264 /* Frameworks */,
+				5DAF90101AF403640068C264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAF90141AF403640068C264 /* PBXTargetDependency */,
+			);
+			name = RageTests;
+			productName = inappragedemoTests;
+			productReference = 5DAF90121AF403640068C264 /* Rage.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAF8FF31AF403640068C264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					5DAF8FFA1AF403640068C264 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W9R8CFRXX7;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					5DAF90111AF403640068C264 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5DAF8FFA1AF403640068C264;
+					};
+				};
+			};
+			buildConfigurationList = 5DAF8FF61AF403640068C264 /* Build configuration list for PBXProject "Rage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5DAF8FF21AF403640068C264;
+			productRefGroup = 5DAF8FFC1AF403640068C264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAF8FFA1AF403640068C264 /* Rage */,
+				5DAF90111AF403640068C264 /* RageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAF8FF91AF403640068C264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64180AAE1C18883300626C11 /* Main.storyboard in Resources */,
+				64180AAD1C18883300626C11 /* LaunchScreen.xib in Resources */,
+				64D62BE71C121CFD0059469C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF90101AF403640068C264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAF8FF71AF403640068C264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D62BE21C121CFD0059469C /* AppDelegate.swift in Sources */,
+				64D62BEC1C121CFD0059469C /* RageProducts.swift in Sources */,
+				64D62BE61C121CFD0059469C /* IAPHelper.swift in Sources */,
+				17A72B6F1C503F36007E18ED /* ProductCell.swift in Sources */,
+				64D62BEA1C121CFD0059469C /* MasterViewController.swift in Sources */,
+				64D62BE41C121CFD0059469C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAF900E1AF403640068C264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAF90141AF403640068C264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAF8FFA1AF403640068C264 /* Rage */;
+			targetProxy = 5DAF90131AF403640068C264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		64180AA91C18883300626C11 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64180AAA1C18883300626C11 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		64180AAB1C18883300626C11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64180AAC1C18883300626C11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5DAF901A1AF403640068C264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5DAF901B1AF403640068C264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DAF901D1AF403640068C264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Rage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Rage;
+				PRODUCT_NAME = Rage;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		5DAF901E1AF403640068C264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Rage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.Rage;
+				PRODUCT_NAME = Rage;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		5DAF90201AF403640068C264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = inappragedemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rayfix.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Rage;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rage.app/Rage";
+			};
+			name = Debug;
+		};
+		5DAF90211AF403640068C264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = inappragedemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.rayfix.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = Rage;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rage.app/Rage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAF8FF61AF403640068C264 /* Build configuration list for PBXProject "Rage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF901A1AF403640068C264 /* Debug */,
+				5DAF901B1AF403640068C264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF901C1AF403640068C264 /* Build configuration list for PBXNativeTarget "Rage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF901D1AF403640068C264 /* Debug */,
+				5DAF901E1AF403640068C264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAF901F1AF403640068C264 /* Build configuration list for PBXNativeTarget "RageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAF90201AF403640068C264 /* Debug */,
+				5DAF90211AF403640068C264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DAF8FF31AF403640068C264 /* Project object */;
+}
